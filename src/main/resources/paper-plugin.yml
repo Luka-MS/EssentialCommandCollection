@@ -1,0 +1,77 @@
+name: EssentialCommandCollectionByLuka
+main: org.main.essential.Main
+version: 1.0-SNAPSHOT
+api-version: 1.19
+commands:
+  setspawn:
+    description: Setzt den Spawnpunkt.
+    usage: /setspawn
+  spawn:
+    description: Teleportiert dich zum Spawn.
+    usage: /spawn
+  home:
+    description: Teleportiert dich zu deinem Home.
+    usage: /home
+  sethome:
+    description: Setzt dein Home.
+    usage: /sethome
+  tp:
+    description: Teleportiert dich zu einem Spieler.
+    usage: /tp <Spieler>
+  msg:
+    description: Sendet eine private Nachricht an einen Spieler.
+    usage: /msg <Spieler> <Nachricht>
+  gm:
+    description: Wechselt den Gamemode.
+    usage: /gm <Modus>
+  fly:
+    description: Aktiviert oder deaktiviert den Flugmodus.
+    usage: /fly
+  kick:
+    description: Kickt einen Spieler vom Server.
+    usage: /kick <Spieler> [Grund]
+  ban:
+    description: Bannt einen Spieler vom Server.
+    usage: /ban <Spieler> [Grund]
+  ec:
+    description: Öffnet die Enderchest des Spielers.
+    usage: /ec [Spieler]
+  god:
+    description: Aktiviert/Deaktiviert God Mode.
+    usage: /god
+  kill:
+    description: Tötet einen Spieler.
+    usage: /kill [Spieler]
+  mute:
+    description: Mutet einen Spieler.
+    usage: /mute <Spieler>
+  nick:
+    description: Setzt einen Nickname.
+    usage: /nick [Name]
+  tpa:
+    description: Sendet eine Teleport-Anfrage.
+    usage: /tpa <Spieler>
+  tpaccept:
+    description: Akzeptiert eine Teleport-Anfrage.
+    usage: /tpaccept
+  tpdeny:
+    description: Lehnt eine Teleport-Anfrage ab.
+    usage: /tpdeny
+  tpahere:
+    description: Teleportiert Spieler zu dir.
+    usage: /tpahere <Spieler>
+  tpall:
+    description: Teleportiert alle Spieler zu dir.
+    usage: /tpall
+  tphere:
+    description: Teleportiert einen Spieler zu dir.
+    usage: /tphere <Spieler>
+  unban:
+    description: Entbannt einen Spieler.
+    usage: /unban <Spieler>
+  unmute:
+    description: Entmutet einen Spieler.
+    usage: /unmute <Spieler>
+  vanish:
+    description: Aktiviert/Deaktiviert Vanish.
+    usage: /vanish
