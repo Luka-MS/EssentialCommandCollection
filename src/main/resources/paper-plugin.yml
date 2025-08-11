@@ -75,3 +75,25 @@ commands:
   vanish:
     description: Aktiviert/Deaktiviert Vanish.
     usage: /vanish
+  heal:
+    description: Heilt dich oder einen anderen Spieler.
+    usage: /heal [Spieler]
+    aliases: [healme]
+  day:
+    description: Setzt die Weltzeit auf Tag.
+    usage: /day
+  night:
+    description: Setzt die Weltzeit auf Nacht.
+    usage: /night
+  setwarp:
+    description: Setzt einen Warp
+    usage: /setwarp <Name>
+    permission: warp.set
+  warp:
+    description: Teleportiert dich zu einem Warp
+    usage: /warp <Name>
+    permission: warp.use
+  delwarp:
+    description: Löscht einen Warp
+    usage: /delwarp <Name>
+    permission: warp.delete
