@@ -28,6 +28,7 @@ public class Main extends JavaPlugin {
         registerCommand("tphere", new TphereCommand());
         registerCommand("unban", new UnbanCommand());
         registerCommand("unmute", new UnmuteCommand());
+        registerCommand("vanish", new VanishCommand());
     }
 
     private void registerCommand(String name, org.bukkit.command.CommandExecutor executor) {
