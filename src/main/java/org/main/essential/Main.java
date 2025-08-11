@@ -8,6 +8,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("EssentialsCommands geladen!");
+        getServer().getPluginManager().registerEvents(new MuteListener(), this);
 
         registerCommand("setspawn", new SetSpawnCommand(this));
         registerCommand("spawn", new SpawnCommand(this));

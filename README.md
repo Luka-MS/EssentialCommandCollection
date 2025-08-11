@@ -44,6 +44,10 @@ Dieses Plugin bietet grundlegende und nützliche Serverbefehle für Minecraft-Se
 2. Die erzeugte JAR-Datei aus `build/libs/` in den `plugins`-Ordner deines Servers kopieren
 3. Server starten oder neu starten
 
+oder
+
+Die aktuellste Jar Datei auf GitHub unter releases herunterladen und in den Plugin Ordner einfügen.
+
 ---
 
 ## Nutzung
@@ -81,4 +85,4 @@ Berechtigungen können über eine Permissions-Manager-Plugin (z.B. LuckPerms) ve
 ---
 
 
-**Viel Spaß mit EssentialCommandCollectionByLuka!**
+**Viel Spaß mit EssentialCommandCollection!**
