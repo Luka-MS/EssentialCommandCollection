@@ -1,4 +1,4 @@
-# EssentialCommandCollection | A Minecraft Server PLugin
+# EssentialCommandCollection | A Minecraft Server Plugin
 
 **Ein einfaches, vielseitiges Essentials-Plugin für Minecraft Spigot 1.19.4 mit JDK 17**
 ---
