@@ -9,8 +9,14 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         getLogger().info("EssentialsCommands geladen!");
         getServer().getPluginManager().registerEvents(new MuteListener(), this);
-        getLogger().info("HealCommand Plugin aktiviert.");
+
         WarpManager warpManager = new WarpManager(getDataFolder());
+        getLogger().info("WarpManager ist erfolgreich geladen!!!");
+        registerCommand("setwarp", new SetWarpCommand(warpManager));
+        registerCommand("warp", new WarpCommand(warpManager));
+        registerCommand("delwarp", new DelWarpCommand(warpManager));
+
+        getServer().getPluginManager().registerEvents(new BackListener(), this);
 
         registerCommand("setspawn", new SetSpawnCommand(this));
         registerCommand("spawn", new SpawnCommand(this));
@@ -35,9 +41,9 @@ public class Main extends JavaPlugin {
         registerCommand("heal", new HealCommand());
         registerCommand("day", new DayCommand());
         registerCommand("night", new NightCommand());
-        registerCommand("setwarp", new SetWarpCommand(warpManager));
-        registerCommand("warp", new WarpCommand(warpManager));
-        registerCommand("delwarp", new DelWarpCommand(warpManager));
+        registerCommand("weather", new WeatherCommand());
+        registerCommand("invsee", new InventorySeeCommand());
+        registerCommand("back", new BackCommand());
     }
 
     private void registerCommand(String name, org.bukkit.command.CommandExecutor executor) {
