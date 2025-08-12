@@ -7,6 +7,15 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        getLogger().info("");
+        getLogger().info(" _____    _____    _____ ");
+        getLogger().info("| ____|  |  ____| |  ____|");
+        getLogger().info("| |__    | |      | |     ");
+        getLogger().info("|  __|   | |      | |     ");
+        getLogger().info("| |___   |  ----  |  ---- ");
+        getLogger().info("|_____|  |______| |______|");
+        getLogger().info("");
+        
         getLogger().info("EssentialsCommands geladen!");
         getServer().getPluginManager().registerEvents(new MuteListener(), this);
 
